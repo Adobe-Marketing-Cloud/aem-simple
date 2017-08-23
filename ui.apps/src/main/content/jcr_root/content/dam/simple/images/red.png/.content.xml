@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fc5fcba4-8b6a-4ac6-a8cb-410f91fd171c">
+    <jcr:content
+        cq:name="red.png"
+        cq:parentPath="/content/dam/simple/images"
+        dam:assetState="processed"
+        dam:relativePath="simple/images/red.png"
+        jcr:lastModified="{Date}2017-08-15T12:36:57.655-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        averageRating="{Double}5.0">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2017-08-15T12:35:18.321-04:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="fbef7d6f2d7d8611c993cad2b80a7b491a15a89b"
+            dam:size="{Long}4384"
+            dc:contributor="Simple project"
+            dc:creator="Simple project"
+            dc:description="The color red"
+            dc:format="image/png"
+            dc:modified="{Date}2017-08-15T12:36:57.505-04:00"
+            dc:title="Red"
+            jcr:lastModified="{Date}2017-08-15T12:36:57.505-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}400"
+            tiff:ImageWidth="{Long}600"
+            xmp:CreatorTool="Adobe Photoshop">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

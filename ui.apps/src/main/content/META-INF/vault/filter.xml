@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/simple">
+        <include pattern="/apps/simple/.*"/>
+        <exclude pattern="/apps/simple/plus-.*"/>
+    </filter>
+    <filter root="/conf/simple" mode="merge">
+        <include pattern="/conf/simple/.*"/>
+        <exclude pattern="/conf/simple/plus-.*"/>
+    </filter>
+    <filter root="/content/simple" mode="merge">
+        <include pattern="/content/simple/.*"/>
+        <exclude pattern="/content/simple/plus/.*"/>
+    </filter>
+    <filter root="/content/dam/simple">
+        <include pattern="/content/dam/simple/.*"/>
+        <exclude pattern="/content/dam/simple/plus"/>
+        <exclude pattern="/content/dam/simple/plus/.*"/>
+    </filter>
+</workspaceFilter>

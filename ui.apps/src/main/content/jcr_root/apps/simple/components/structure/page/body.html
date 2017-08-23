@@ -1,0 +1,8 @@
+<!--/*
+    This overlay copies the code from ../v1/page/body.html and wraps it with .simple-body--wrapper to allow for max-width and centering
+*/-->
+<div class="simple-body--wrapper">
+    <sly data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
+         data-sly-repeat.child="${templatedContainer.structureResources}"
+         data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"></sly>
+</div>

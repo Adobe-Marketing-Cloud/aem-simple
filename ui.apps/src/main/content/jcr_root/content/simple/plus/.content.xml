@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/simple/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Plus"
+        sling:resourceType="simple/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Simple Plus packages"
+                    sling:resourceType="simple/components/core/v1/title"/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="simple/components/core/v1/text"
+                    text="&lt;p>Simple Plus packages are discrete AEM packages that can be installed on top of the Simple project to illustrate specific behavior, often integrations with other frameworks.&lt;/p>&#xa;&lt;p>The latest Simple Plus packages can be found at:&lt;/p>&#xa;&lt;ul style=&quot;list-style-position: inside;&quot;>&#xa;&lt;li>&lt;a href=&quot;https://github.com/Adobe-Marketing-Cloud/aem-simple-plus&quot; target=&quot;_blank&quot;>GitHub.com &amp;gt; Adobe Marketing Cloud &amp;gt; aem-simple-plus &amp;gt; Releases&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
