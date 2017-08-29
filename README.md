@@ -1,4 +1,6 @@
-# Simple Site Project
+# Simple Project
+
+To learn more, visit the [documentation page for Simple Project for AEM 6.3](https://helpx.adobe.com/experience-manager/kt/sites/using/simple-code-use.html).
 
 This a content package project generated using the AEM Multimodule Lazybones template.
 
